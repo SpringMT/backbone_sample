@@ -1,4 +1,4 @@
-define(["main"], function (e) {
+define(["main"], function (Main) {
   var ViewFirst = Backbone.View.extend({
     el: $("#viewFirst"),
     initialize: function() {

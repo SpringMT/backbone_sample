@@ -1,12 +1,8 @@
 ({
-  //appDir: './',
-  baseUrl:'./scripts',
-  dir: './dists',
-  paths: {
-    jquery: "libs/jquery-1.10.2.min",
-    underscore: "libs/underscore",
-    backbone: "libs/backbone",
-  },
+  appDir: './',
+  baseUrl:'.',
+  dir: '../../../public/javscripts/assets',
+  mainConfigFile: './main.js',
   modules: [
     {
       name: 'main',

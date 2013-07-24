@@ -1,0 +1,1 @@
+define(["main"],function(e){var t=Backbone.View.extend({el:$("#viewFirst"),initialize:function(){alert("initialize view first")},events:{"click p":"alertFirst"},alertFirst:function(e){alert("p first")}});return t});

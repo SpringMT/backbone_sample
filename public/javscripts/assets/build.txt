@@ -1,0 +1,13 @@
+
+main.js
+----------------
+libs/jquery-1.10.2.min.js
+libs/underscore.js
+libs/backbone.js
+main.js
+
+apps/sample.js
+----------------
+views/view_first.js
+views/view_second.js
+apps/sample.js
