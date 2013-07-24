@@ -3,7 +3,6 @@ define(["main"], function (Main) {
     el: $("#viewFirst"),
     initialize: function() {
       //this.$el
-      alert("initialize view first");
     },
     events: {
       'click p': 'alertFirst'
