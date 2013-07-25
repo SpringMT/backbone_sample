@@ -1,1 +1,1 @@
-define(["main"],function(e){var t=Backbone.View.extend({el:$("#viewSecond"),initialize:function(){alert("initialize view socond")},events:{"click p":"alertFirst"},alertFirst:function(e){alert("p second")}});return t});
+define(["main"],function(e){var t=Backbone.View.extend({el:$("#viewSecond"),initialize:function(){},events:{"click p":"alertFirst"},alertFirst:function(e){alert("p second")}});return t});

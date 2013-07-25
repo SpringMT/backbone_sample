@@ -1,0 +1,1 @@
+define(["main","views/sample_first","collections/samples"],function(e,t,n){var r=new n;new t({el:$("#sample1"),collection:r})});

@@ -1,0 +1,1 @@
+define(["main","models/sample"],function(e,t){var n=Backbone.Collection.extend({url:"/samples",model:t});return n});

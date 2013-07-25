@@ -12,6 +12,7 @@ define([
       initialize: function() {
         this.listenTo(this.collection, 'reset', this.showAll);
         this.listenTo(this.collection, 'add', this.addOne);
+        this.listenTo(this.collection, 'invalid', this.validationsError);
         this.collection.fetch({reset: true});
       },
 
@@ -27,6 +28,10 @@ define([
       addOne: function(model, collection, option) {
         this.$('#list').append('<p>' + model.get('name') + '</p>');
         this.$('#list2').append('<p>' + model.get('name') + '</p>');
+      },
+
+      validationsError: function(model, error, option) {
+        alert(error);
       },
 
       // controllerメソッド

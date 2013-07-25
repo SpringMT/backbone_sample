@@ -1,0 +1,1 @@
+define(["main"],function(e){var t=Backbone.Model.extend({});return t});
