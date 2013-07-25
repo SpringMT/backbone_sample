@@ -9,7 +9,7 @@ define([
     $(document).ready(function() {
       new ViewFirst;
       new ViewSecond;
-    })
+    });
   }
 );
 

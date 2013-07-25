@@ -1,15 +1,13 @@
 define([
-    "main", "views/view_first", "views/view_second"
+    "main",'views/sample_first', 'collections/samples'
   ],
   function(
     Main,
-    ViewFirst,
-    ViewSecond
+    SampleFirst,
+    Samples
   ) {
-    $(document).ready(function() {
-      new ViewFirst;
-      new ViewSecond;
-    })
+    var samples = new Samples;
+    new SampleFirst({el: $('#sample1'), collection: samples});
   }
 );
 
