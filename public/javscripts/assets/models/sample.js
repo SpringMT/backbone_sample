@@ -1,1 +1,1 @@
-define(["main"],function(e){var t=Backbone.Model.extend({});return t});
+define(["main"],function(e){var t=Backbone.Model.extend({validate:function(e){var t=e.name;if(!t||t=="")return"Error!"}});return t});
